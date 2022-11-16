@@ -1,0 +1,138 @@
+/*CSS by Maimuna starting from here*/
+ul  
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 10px;
+    margin: -10px;
+}
+
+ul a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+h1 
+{
+    text-align: center;
+}
+
+.home 
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.info 
+{
+    width: 80%;
+}
+
+.grid img 
+{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+
+p 
+{
+    font-size: 22px;
+}
+
+footer
+{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    margin: -10px;
+}
+
+footer a 
+{
+    color: white;
+}
+
+/*CSS by Ivy starting from here */
+
+.pandas h1 ~ 
+{
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 768px) /* mobile size */
+{
+    .container
+    {
+        display:flex;
+        flex-direction:column;
+        grid-gap: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) /* laptop size */
+{
+    .container
+    {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas: 'a a b' 'a a c' 'd f g';
+        grid-gap: 5px;
+    }
+
+    #first /* first image will be bigger than the rest*/
+    {
+        width: 940px;
+        height: 600px;
+        grid-area: a;
+    } 
+}
+
+h2
+{
+    margin-left: 25px;
+}
+
+.gridalt
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 25px;
+    width:100%
+}
+
+img
+{
+    max-width: 90%;
+    height: auto;
+}
+
+.polaroid 
+{
+    width: 92%;
+    background-color: #E1F6FF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-left: 25px;
+}
+p
+{
+    margin-left: 25px;
+}
+body
+{
+    overflow-x: hidden;
+}
