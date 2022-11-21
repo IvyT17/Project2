@@ -264,10 +264,14 @@ footer a
 
 
 /*CSS by Ivy starting from here */
-
-.pandas h1 ~ 
+.pandas
 {
-    margin-left: 70px;
+    background-color: #fcefe9;
+}
+
+.whales
+{
+    background-color: #e3e3e4;
 }
 
 @media screen and (max-width: 768px) /* mobile size */
